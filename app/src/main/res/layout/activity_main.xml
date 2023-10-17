@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/mainPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"/>
+
+    <Button
+        android:id="@+id/aboutBtn"
+        android:layout_width="298dp"
+        android:layout_height="95dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="56dp"
+        android:backgroundTint="@color/white"
+        android:text="About"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/CallUsBtn"
+        android:layout_width="298dp"
+        android:layout_height="95dp"
+        android:layout_below="@+id/aboutBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="@color/white"
+        android:text="Call Us"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/WorkHoursBtn"
+        android:layout_width="298dp"
+        android:layout_height="95dp"
+        android:layout_below="@+id/CallUsBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="@color/white"
+        android:text="Work Hours"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+</RelativeLayout>

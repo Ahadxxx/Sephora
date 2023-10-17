@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SephoraInformation">
+
+    <ImageView
+        android:id="@+id/mainPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"/>
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textColor="#000000"
+        android:backgroundTint="#FFFFFF"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/backBtn"
+        android:paddingStart="10dp"
+        android:text="About Sephora"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:padding="10dp"
+
+        android:text="A leader in prestige omni-retail, our mission at Sephora is to create a welcoming beauty shopping experience for all and inspire fearlessness in our community.
+
+        \n\nWe operate over 2,700 stores in 35 countries worldwide, with an expanding base of over 500 stores across the Americas, and a world-class ecommerce site. Since opening our first US store in New York’s SoHo neighborhood in 1998, Sephora has been an industry-leading champion of diversity, inclusivity, and empowerment in the US, guided by our longstanding company values.
+
+        \n\nOwned by LVMH Moët Hennessy Louis Vuitton, the world’s leading luxury goods group, Sephora was founded in France by Dominique Mandonnaud in 1970 and is defined by its unique, open-sell environment with an ever-increasing assortment of products from carefully curated brands, featuring emerging favorites, trusted classics, and Sephora’s own line, Sephora Collection. Sephora continues to curate innovative brands including a robust Clean beauty assortment and exclusive brands like Rare Beauty by Selena Gomez and FENTY BEAUTY by Rihanna brought to market first by Sephora. Today, Sephora is a powerful beauty presence in countries around the world thanks to our unparalleled assortment of prestige products in every category, unbiased service from beauty experts, interactive shopping environment, and relentless innovation, including our expanding array of the ways in which clients can shop with Sephora.
+
+        \n\nSephora has been recognized by Forbes as one of America’s Best Employers four years in a row, from 2018-2021. For three years in a row, from 2019-2021, Sephora scored 100% on the Human Rights Campaign’s Corporate Quality Index, the national benchmarking tool on corporate policies and practices pertinent to LGBTQ+ employees."
+
+        android:textSize="13.5sp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/header" />
+
+
+
+</RelativeLayout>
